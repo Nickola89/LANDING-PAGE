@@ -1,0 +1,42 @@
+.container {
+    background-color: rgba(16, 16, 53, 0.932);
+    color: rgba(240, 248, 255, 0.934);
+    margin: -8px;
+    padding: 20px;
+  }
+
+.nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-right: 100px;
+  }
+  
+  .website {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .subtext {
+  
+  }
+  
+  .placeholder {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+  }
+  
+  
+  .button {
+    display: flex;
+    justify-content: center;
+  
+  }
