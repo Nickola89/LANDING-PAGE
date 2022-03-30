@@ -1,53 +1,91 @@
 html {
     display: block;
+  
 }
 
 .part1 {
-  display: flex;
+  display: block;
     background-color: rgba(16, 16, 53, 0.932);
     color: rgba(240, 248, 255, 0.934);
     margin: -8px;
-    padding: 1px;
+    padding: 0;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
     height: auto;
   }
 
-.nav {
-    margin: 0;
+nav {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 100px;
   }
   
-  .Link {
-    display: flex;
+  nav ul li {
+    display: inline-block;
     justify-content: center;
-    gap: 16px;
-    padding-right: 100px;
+    gap: 10px;
+    margin-right: 50px;
   }
-  
-  .website {
-    display: flex;
-    padding: 8px;
-  }
-  
-  .subtext {
-      display: flex;
-    
 
-  
+  nav ul li:hover {
+    cursor: pointer;
+    opacity: 0,9;
   }
   
-  .placeholder {
+  .part1-1 {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    margin-bottom: 100px;
+  }
+  
+  .head {
+    display: block;
+    width: 500px;
+
+  }
+
+  .head h1 {
     margin: 0;
-    display: flex;
-    justify-content: space-between;
+    font-size: 45px;
+
   }
-  
-  
+
+  .head p {
+    margin: 0;
+  }
+
   .button {
-    display: flex;
-    justify-content: center;
-  
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(9, 87, 231, 0.767);
+    color: rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+   
   }
+  .button:hover {
+    opacity: 0,9;
+    cursor: pointer;
+  }
+
+  .place {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.938);
+    background-color: rgba(181, 189, 189, 0.932);
+    width: 580px;
+    height: 180px;
+  }
+  
+  
+  
 
   .part2 {
       height: auto;
@@ -133,7 +171,6 @@ html {
     display: inline-block;
     align-items: flex-start;
     text-align: center;
-
     background-color: rgba(9, 87, 231, 0.767);
     color: rgba(255, 255, 255, 0.966);
     border: 2px solid rgba(255, 255, 255, 0.966);
