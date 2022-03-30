@@ -3,10 +3,12 @@ html {
 }
 
 .part1 {
+  display: flex;
     background-color: rgba(16, 16, 53, 0.932);
     color: rgba(240, 248, 255, 0.934);
     margin: -8px;
-    padding: 20px;
+    padding: 1px;
+    height: auto;
   }
 
 .nav {
@@ -24,20 +26,20 @@ html {
   
   .website {
     display: flex;
-    justify-content: center;
     padding: 8px;
   }
   
   .subtext {
       display: flex;
+    
 
   
   }
   
   .placeholder {
+    margin: 0;
     display: flex;
-    justify-content: center;
-    padding-right: 100px;
+    justify-content: space-between;
   }
   
   
@@ -98,14 +100,60 @@ html {
   }
 
   .modal {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding: 16px;
+    padding: 8px;
     background: rgba(9, 87, 231, 0.767);
+    color: rgba(255, 255, 255, 0.966);
+    font-size: 25px;
     height: 80px;
-    width: 700px;
+    width: 800px;
+    padding: 40px;
     border-radius: 5px;
     margin: 100px;
+  }
+  .modal h4 {
+    margin: 0;
+  }
+
+  .modal p {
+    margin: 0;
+  }
+
+ .part4-1 {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+ }
+ 
+  .btn {
+    display: inline-block;
+    align-items: flex-start;
+    text-align: center;
+
+    background-color: rgba(9, 87, 231, 0.767);
+    color: rgba(255, 255, 255, 0.966);
+    border: 2px solid rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(43, 43, 103, 0.836);
+    color: rgba(255, 255, 255, 0.932);
+    margin: -8px;
+    height: 50px;
+    width: auto;
   }
